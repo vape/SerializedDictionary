@@ -1,6 +1,9 @@
 # Serialized Dictionary
 Simple and easy to use serializable dictionary. Supports any type which can be serialzied by unity as key or value.
 ## Usage
+### Adding to project
+You can either add this repository as git package through unity package manager (click plus sign in package manager and select "Add package from git URL..."), clone as submodule into your project's `./Packages` directory or simple copy-paste code into your project.
+### Code Examples
 For each key-value pair, dictionary type should be excplicitly defined and marked as `[Serializable]`
 ```csharp
 using SerializedDict;
